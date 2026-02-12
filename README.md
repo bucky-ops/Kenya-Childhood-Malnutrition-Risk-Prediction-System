@@ -1,263 +1,112 @@
-# Kenya Childhood Malnutrition Risk Prediction System
+# 📊 Kenya Childhood Malnutrition Risk Prediction System
 
-An open-source Digital Public Good for predicting acute childhood malnutrition risk in Kenya using machine learning and WHO Data Quality Review standards.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
+[![GitHub Actions CI](https://github.com/your-org/your-repo/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/your-repo/actions)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-## 🌍 Overview
+> An open-source Digital Public Good for predicting acute childhood malnutrition risk in Kenya using machine learning and WHO Data Quality Review standards.
 
-This system provides county and sub-county level predictions of acute childhood malnutrition cases one month ahead, incorporating rigorous data quality monitoring and automated governance features. Designed for use by UNICEF, USAID, NGOs, and government health ministries.
+## Table of Contents
+- [Features](#features)  
+- [Quick-Start](#quick-start)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Development](#development)  
+- [Contributing](#contributing)  
+- [License](#license)
 
-**⚠️ Important Disclaimer:** This tool is for programmatic decision support only. Not for clinical diagnosis or individual health assessments.
+## Features
+- Machine Learning Predictions using Random Forest model trained on WHO and UNICEF indicators
+- Data Quality Monitoring with WHO DQR-compliant validation and automated scoring
+- Quality-Weighted Training that prioritizes high-quality data sources
+- Automated Reporting with monthly PDF reports for stakeholders
+- Alert System for email notifications about data quality deterioration
+- Interactive Dashboards with Streamlit apps for data exploration and quality review
+- Scenario Analysis for policy impact simulations
+- Uncertainty Quantification for confidence intervals in predictions
 
-## ✨ Key Features
-
-- **Machine Learning Predictions**: Random Forest model trained on WHO and UNICEF indicators
-- **Data Quality Monitoring**: WHO DQR-compliant validation with automated scoring
-- **Quality-Weighted Training**: Models prioritize high-quality data sources
-- **Automated Reporting**: Monthly PDF reports for stakeholders
-- **Alert System**: Email notifications for data quality deterioration
-- **Interactive Dashboards**: Streamlit apps for data exploration and quality review
-- **Scenario Analysis**: Policy impact simulations
-- **Uncertainty Quantification**: Confidence intervals for predictions
-
-## 📋 Prerequisites
-
-- **Python 3.10+**: Ensure Python is installed and accessible from command line
-- **Git**: For cloning the repository (optional if you have the code)
-- **At least 4GB RAM**: Recommended for model training and data processing
-- **Data Files**: Raw CSV data files must be placed in `data/raw/`
-
-## 🚀 Quick Installation
-
-### 1. Clone or Download the Project
+## Quick-Start
 ```bash
-git clone https://github.com/your-org/kam-forecast.git
-cd kam-forecast
-```
+# clone & cd
+git clone https://github.com/your-org/your-repo.git
+cd your-repo
 
-### 2. System Launcher (NEW!)
-The system includes a launcher that can run the complete pipeline:
+# create a virtual environment
+python -m venv .venv && source .venv/bin/activate
 
-```bash
-# Run the complete system pipeline with test data
+# install the package and dev tools
+pip install -e .[dev]
+
+# run the main app
+python -m your_pkg.app.app   # or any other entry-point
+
+# run the complete pipeline with test data
 python system_launcher.py --pipeline
-
-# Launch the Streamlit dashboards
-python system_launcher.py --dashboards
-
-# Run pipeline and launch dashboards
-python system_launcher.py --all
-
-# Show help
-python system_launcher.py
 ```
 
-### 2. Set Up Virtual Environment
+## Installation
 ```bash
 # Create virtual environment
 python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Activate virtual environment
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Install as editable package (optional)
+pip install -e .
 ```
 
-### 4. Place Raw Data Files
-Place the following CSV files in the `data/raw/` directory:
-- `who_nutrition.csv` - WHO child nutrition indicators
-- `unicef_wash.csv` - UNICEF WASH & nutrition indicators
-- `dhis2_cases.csv` - DHIS2 malnutrition case data
+## Usage
+The system consists of several interconnected modules:
 
-**Note**: If you don't have real data, the system will still run but with limited functionality.
-
-## ⚙️ Complete System Pipeline
-
-Execute the scripts in order to build the full system:
-
-### 1. Data Processing
-```bash
-# Load and merge data from all sources
-python src/data/load_data.py
-
-# Clean missing values
-python src/data/clean_data.py
-
-# Engineer features (lags, seasonal)
-python src/features/build_features.py
-```
+### 1. Data Pipeline
+- `src.data.load_data`: Load and merge data from WHO, UNICEF, and DHIS2 sources
+- `src.data.clean_data`: Clean missing values and impute data
+- `src.features.build_features`: Engineer features with lagged indicators and seasonal components
 
 ### 2. Model Training
+- `src.models.train_model`: Train Random Forest model with time-based splitting
+- `src.models.predict`: Generate predictions with uncertainty bands
+
+### 3. Validation & Scoring
+- `src.validation.validate_data`: Validate data quality against WHO DQR standards
+- `src.scoring.compute_scores`: Compute county-level data quality scores
+
+### 4. Dashboards
+- `app/app.py`: Main prediction dashboard
+- `app/executive_dashboard.py`: Executive national dashboard with scenarios
+- `app/data_quality_app.py`: Data quality review dashboard
+
+### 5. Reporting
+- `src.reporting.generate_pdf_report`: Generate comprehensive PDF reports
+- `src.reporting.generate_donor_deck`: Generate donor presentation decks
+
+## Development
 ```bash
-# Train Random Forest model with quality weighting
-python src/models/train_model.py
+# Install development dependencies
+pip install -e .[dev]
+
+# Run tests
+pytest
+
+# Run linting
+ruff check .
+
+# Format code
+black .
+
+# Run type checking
+mypy .
 ```
 
-### 3. Generate Predictions
-```bash
-# Make predictions with uncertainty bands
-python src/models/predict.py
-python src/uncertainty/compute_uncertainty.py
-```
+## Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
 
-### 4. Quality Assurance
-```bash
-# Validate data quality
-python src/validation/validate_data.py
-python src/scoring/compute_scores.py
-python src/reporting/generate_pdf_report.py
-
-# Run data quality alerts
-python src/alerts/data_quality_alerts.py
-```
-
-### 5. Scenario Analysis
-```bash
-# Generate policy scenarios
-python src/scenarios/simulate_scenarios.py
-```
-
-### 6. System Health Check
-```bash
-# Validate system integrity
-python src/system/system_health_check.py
-```
-
-## 🖥️ Dashboard Applications
-
-### Main Prediction Dashboard
-```bash
-streamlit run app/app.py
-```
-- County-level malnutrition case predictions
-- Interactive visualization of actual vs predicted cases
-- Summary statistics and MAE metric
-
-### Executive Dashboard
-```bash
-streamlit run app/executive_dashboard.py
-```
-- National overview for decision-makers
-- Scenario planning capabilities
-- County risk ranking and insights
-
-### Data Quality Dashboard
-```bash
-streamlit run app/data_quality_app.py
-```
-- DHIS2-style data quality review
-- Issue tracking and filtering
-- Quality trend visualizations
-
-## 📊 Understanding the Output
-
-After running the pipeline, you'll find:
-
-- **Models**: `models/random_forest_model.pkl` (with metadata)
-- **Predictions**: `data/processed/predictions.csv`
-- **Predictions with Uncertainty**: `data/processed/predictions_with_uncertainty.csv`
-- **Quality Scores**: `data/processed/county_data_quality_scores.csv`
-- **Scenarios**: `data/processed/scenario_simulations.csv`
-- **Validation Report**: `data/processed/validation_report.csv`
-- **Reports**: `reports/` directory with PDFs and PowerPoint
-- **Health Check**: `reports/system_health_report.txt`
-
-## ⚙️ Configuration Management
-
-All system parameters are centralized in `config/config.py`. You can customize:
-
-- File paths and directory structure
-- Model hyperparameters (n_estimators, random_state, etc.)
-- Data quality thresholds
-- DQR dimension weights
-- Alert thresholds
-- Feature engineering parameters
-
-Example usage:
-```python
-from config.config import config
-
-# Access configuration
-data_dir = config.RAW_DATA_DIR
-model_params = config.MODEL_PARAMS
-thresholds = config.QUALITY_THRESHOLDS
-
-# Modify parameters
-config.MODEL_PARAMS['n_estimators'] = 200
-```
-
-## 🛡️ Ethical Safeguards
-
-- **No Clinical Use**: Explicit disclaimers on all outputs
-- **Privacy Protection**: No personal identifiable information
-- **Bias Mitigation**: Quality-weighted training reduces poor data influence
-- **Transparency**: Open-source code and methodology
-- **Accountability**: Automated monitoring and alerts
-
-## 🏗️ Project Structure
-
-```
-├── src/
-│   ├── data/          # Data loading and cleaning
-│   ├── features/      # Feature engineering
-│   ├── models/        # ML training and prediction
-│   ├── validation/    # Data quality checks
-│   ├── dqr/          # WHO DQR mapping
-│   ├── scoring/      # Quality scoring
-│   ├── reporting/    # PDF generation
-│   ├── alerts/       # Alert system
-│   ├── uncertainty/  # Uncertainty quantification
-│   ├── scenarios/    # Scenario simulation
-│   ├── system/       # System health checks
-│   ├── governance/   # DPG packaging
-│   └── utils/        # Utility functions
-├── app/              # Streamlit dashboards
-├── config/           # Configuration
-├── data/
-│   ├── raw/          # Input data
-│   └── processed/    # Generated outputs
-├── models/           # Saved ML models
-├── reports/          # PDF reports
-└── requirements.txt  # Dependencies
-```
-
-## 🤝 Contributing
-
-We welcome contributions to improve the system:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-Please ensure your code follows the existing style and includes appropriate tests.
-
-## 📄 License
-
-Apache License 2.0 - see [LICENSE](LICENSE)
-
-## 👥 Partners
-
-Developed with support from:
-- UNICEF
-- USAID
-- Kenya Ministry of Health
-- Digital Public Good Alliance
-
-## 📞 Contact
-
-For technical support or reuse inquiries:
-- Email: support@malnutrition-project.org
-- Issues: GitHub repository
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
 *Built for humanitarian impact through ethical AI and open data.*
-
-*This system is compliant with Digital Public Good Alliance standards.*

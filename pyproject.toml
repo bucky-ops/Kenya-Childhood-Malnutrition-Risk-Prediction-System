@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kam_forecast"
+version = "1.0.0"
+description = "An open-source Digital Public Good for predicting acute childhood malnutrition risk in Kenya"
+readme = "README.md"
+authors = [{name = "Community Contributors", email = "contributors@example.com"}]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.21.0",
+    "scikit-learn>=1.1.0",
+    "matplotlib>=3.5.0",
+    "seaborn>=0.11.0",
+    "streamlit>=1.10.0",
+    "reportlab>=3.6.0",
+    "python-pptx>=0.6.21",
+    "python-dotenv>=1.0.0",
+    "openpyxl>=3.0.0",
+    "xlrd>=2.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "ruff>=0.0.244",
+    "mypy>=0.991",
+    "pre-commit>=2.20",
+    "pytest-cov>=4.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/bucky-ops/Kenya-Childhood-Malnutrition-Risk-Prediction-System"
+Repository = "https://github.com/bucky-ops/Kenya-Childhood-Malnutrition-Risk-Prediction-System"
+"Bug Tracker" = "https://github.com/bucky-ops/Kenya-Childhood-Malnutrition-Risk-Prediction-System/issues"
+
+[project.scripts]
+kam-forecast = "kam_forecast.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kam_forecast*", "src*"]

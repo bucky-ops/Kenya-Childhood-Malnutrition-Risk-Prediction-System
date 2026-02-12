@@ -1,0 +1,30 @@
+============================================================
+KENYA MALNUTRITION PREDICTION SYSTEM HEALTH REPORT
+============================================================
+
+Directory Integrity: PASS
+  All directories present
+
+Dependencies: PASS
+  All packages installed
+
+Data Readiness: WARN
+  Data check: 6 missing, 0 invalid
+    Missing:
+      - data/raw/who_nutrition.csv (WHO nutrition data)
+      - data/raw/unicef_wash.csv (UNICEF WASH data)
+      - data/raw/dhis2_cases.csv (DHIS2 case data)
+      - data/processed/validation_report.csv (Validation results)
+      - data/processed/county_data_quality_scores.csv (Quality scores)
+      - models/random_forest_weighted_model.pkl (Trained model)
+    Invalid:
+
+Pipeline Health: PASS
+  Pipeline check: 0 module issues
+
+============================================================
+OVERALL SYSTEM STATUS: WARN
+============================================================
+System has warnings - review and address before production.
+
+For technical support: systems@malnutrition-project.org

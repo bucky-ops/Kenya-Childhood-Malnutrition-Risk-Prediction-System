@@ -1,0 +1,7 @@
+check,issue
+dates,Found 441 non-monthly date intervals (expected 25-35 days)
+missing_data,sub_county: 0.0% missing
+missing_data,county: 0.0% missing
+missing_data,date: 0.0% missing
+missing_data,acute_malnutrition_cases: 0.0% missing
+missing_data,predicted_cases: 0.0% missing

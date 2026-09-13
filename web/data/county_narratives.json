@@ -1,0 +1,152 @@
+{
+  "Garissa": {
+    "drivers": [
+      "Recurrent Horn of Africa droughts (2017, 2019, 2021-2023) decimated pastoralist livestock herds, the main livelihood and food source",
+      "Acute malnutrition classified IPC Phase 4 (Critical) per the July 2023 SMART survey; GAM well above emergency thresholds",
+      "High poverty rates, limited crop farming, and reliance on food aid in a vast arid county with sparse health infrastructure",
+      "Poor WASH access and recurrent disease outbreaks (cholera, measles) that worsen acute malnutrition"
+    ],
+    "testimony": "Representative composite: Amina, a mother of four in Garissa Town, lost nearly all her goats during the 2022-2023 drought. Her two-year-old son was admitted to the IMAM outpatient therapeutic feeding program at Medina Health Centre with severe acute malnutrition; with Ready-to-Use Therapeutic Food he recovered over six weeks, but the family remains food-insecure as rains continue to fail.",
+    "initiatives": [
+      "Integrated Management of Acute Malnutrition (IMAM) program at sites like Medina Health Centre, supported by UNICEF",
+      "Save the Children IMAM and drought-response nutrition programs across Garissa sub-counties",
+      "National Drought Management Authority (NDMA) early warning and contingency response"
+    ],
+    "success_story": "Garissa County expanded IMAM/CMAM outpatient therapeutic feeding across drought-affected sub-counties during the 2021-2023 Horn of Africa drought, with UNICEF and Save the Children supporting admission of thousands of children; an AI-based malnutrition early-warning tool co-developed with the Jameel Observatory is now being integrated to anticipate drought-driven spikes."
+  },
+  "Nairobi": {
+    "drivers": [
+      "Over 60% of residents live in informal settlements (Kibera, Mathare, Mukuru) where stunting ranges 26-50% — far above the national average",
+      "Deep urban poverty and food insecurity: a KEMRI/CDC survey found ~90% of Kibera households had reduced dietary diversity",
+      "Poor WASH and overcrowding drive repeated infections (diarrhoea, respiratory) that compound chronic undernutrition",
+      "Low maternal education and sub-optimal infant and young child feeding (IYCF) practices in slum settings"
+    ],
+    "testimony": "Representative composite: Wanjiru, a single mother of three in Mathare, earns ~KSh 300 a day washing clothes. Rising food prices pushed her to skip meals so her children could eat; her youngest, 18 months, was diagnosed with moderate acute malnutrition at the local dispensary after repeated bouts of diarrhoea.",
+    "initiatives": [
+      "Baby-Friendly Hospital Initiative (BFHI) rolled out by Nairobi City County Health Department in maternity facilities",
+      "Concern Worldwide maternal, neonatal and child health/nutrition programs in Nairobi's informal settlements",
+      "Save the Children urban health and nutrition interventions in Nairobi slums"
+    ],
+    "success_story": "Nairobi County, through BFHI and partner-supported urban nutrition programs, has helped push national stunting down from 35.2% (2008-09) to 26% (2014), with continued effort focused on closing the steep slum-vs-formal-settlement gap."
+  },
+  "Malindi": {
+    "drivers": [
+      "Highest stunting prevalence in Kenya at ~37% of under-fives, driven by deep rural poverty and food insecurity",
+      "Poor dietary intake and sub-optimal infant feeding practices, with low minimum acceptable diet among children 6-23 months",
+      "High morbidity from malaria, diarrhoea and respiratory infections that lower immunity and worsen wasting",
+      "Low maternal education and limited access to health services in remote coastal villages"
+    ],
+    "testimony": "Representative composite: Kadzo, a subsistence farmer in rural Kilifi near Malindi, watches her two-year-old daughter grow thinner each dry season as the family's cassava and maize harvest fails. A community health volunteer identified the child as malnourished during a screening and referred her to the nearest dispensary for therapeutic feeding.",
+    "initiatives": [
+      "World Vision Kenya health and nutrition interventions across Kilifi County",
+      "Kilifi County Integrated SMART Survey (KNBS-led) coordinating nutrition-specific and -sensitive actors",
+      "Kilifi County Department of Health IMAM/CMAM sites and vitamin A supplementation campaigns"
+    ],
+    "success_story": "Coordinated multi-actor nutrition programming in Kilifi — combining World Vision interventions, IMAM services and the 2023 Integrated SMART Survey — is guiding targeted scaling of infant and young child feeding education and vitamin A/Lipid-based Nutrient Supplement coverage to bring down the county's nation-leading 37% stunting rate."
+  },
+  "Mombasa": {
+    "drivers": [
+      "Widespread informal settlements (Likoni, Bangladesh, Mnazi Mmoja) with high poverty and overcrowding",
+      "Cash-based urban food economy where rising prices push poor households toward low-diversity, calorie-heavy diets",
+      "Poor WASH and recurrent diarrhoeal disease in dense slum communities",
+      "High unemployment and low maternal education limiting childcare and feeding knowledge"
+    ],
+    "testimony": "Representative composite: Mwanaisha, a mother of five in Bangladesh informal settlement, Mombasa, lost her casual portering income during the COVID-19 downturn. With prices of maize and cooking oil climbing, her one-year-old became wasted; she was reached through a community nutrition screening and enrolled in supplementary feeding.",
+    "initiatives": [
+      "WFP food assistance and cash-transfer programs reaching food-insecure Mombasa households (e.g. the 2020 COVID-19 cash transfer of KSh 4,000/month per family)",
+      "WHO-AFRO-supported NICK (Nutritional Improvement for Children in Urban Chile and Kenya) intersectoral program in Mombasa's informal settlements",
+      "Mombasa County Department of Health maternal and child nutrition clinics"
+    ],
+    "success_story": "WFP's COVID-19 cash-transfer program reached vulnerable Mombasa families with KSh 4,000 monthly, covering about half of monthly food and nutrition needs, while the intersectoral NICK model demonstrated that coordinated community-driven action can reduce child malnutrition in urban informal settlements."
+  },
+  "Kisumu": {
+    "drivers": [
+      "Stunting at ~18% nationally-relevant level but pockets of high malnutrition in urban slums like Obunga",
+      "Fishing-community poverty and food insecurity: fish sold for cash rather than household consumption, leaving children with low-diversity diets",
+      "High HIV prevalence affecting household food security and childcare capacity",
+      "Poor WASH in lakeside informal settlements driving recurrent infections"
+    ],
+    "testimony": "Representative composite: Akinyi, a fishmonger in Obunga slum, sells her daily catch at the beach to pay rent, leaving little protein for her own three children. When her youngest, 14 months, became underweight, a community health worker enrolled the family in a Baby-Friendly Community Initiative support group that taught improved complementary feeding.",
+    "initiatives": [
+      "Baby-Friendly Community Initiative (BFCI) led by Kisumu County Government to promote breastfeeding, complementary feeding and maternal nutrition",
+      "WiRED International community health worker team conducting malnutrition surveillance and screening",
+      "Orange-fleshed sweet potato (OFSP) / vitamin-A biofortification programs in lakeside communities"
+    ],
+    "success_story": "Kisumu County's active rollout of the Baby-Friendly Community Initiative — promoting breastfeeding, complementary feeding and WASH — is being scaled countywide as a flagship community-nutrition platform, with improvements in IYCF practices observed in routine health data."
+  },
+  "Nakuru": {
+    "drivers": [
+      "About 27.6% of under-fives stunted (KDHS 2014, ~75,439 children), with worse rates in informal settlements like Kaptembwo",
+      "Urban-rural poverty gap and food insecurity in peri-urban farming households",
+      "Sub-optimal infant and young child feeding practices and low maternal nutrition knowledge",
+      "Recurrent infections and limited access to quality health services in lower-income areas"
+    ],
+    "testimony": "Representative composite: Chebet, a mother of three living in Kaptembwo, Nakuru, struggles to afford a diverse diet on her husband's casual wage. Her two-year-old was flagged as stunted during a clinic visit; she has since joined a county nutrition-support group that introduced low-cost, nutrient-rich recipes.",
+    "initiatives": [
+      "Nutrition International county-level maternal and child nutrition support programs",
+      "World Vision Kenya child health and nutrition programming",
+      "Nakuru County Government Department of Health nutrition services and GAIN partnerships"
+    ],
+    "success_story": "Nakuru County reduced stunting and malnutrition from 28% to 18% over three years through expanded county nutrition services, partner-supported screening and complementary feeding promotion — one of the steepest reductions recorded by a Kenyan county."
+  },
+  "Kakamega": {
+    "drivers": [
+      "Poverty and food insecurity, particularly in sub-counties like Malava with persistently high stunting and wasting",
+      "Sub-optimal infant and young child feeding practices and low dietary diversity",
+      "High disease burden (malaria, diarrhoea) undermining child growth",
+      "Large household sizes and low maternal education limiting childcare quality"
+    ],
+    "testimony": "Representative composite: Nerima, a smallholder farmer in Malava, Kakamega, feeds her four children mostly maize and occasional vegetables; her youngest, 22 months, was diagnosed as stunted at a child welfare clinic. A community health volunteer helped her start a kitchen garden and incorporate eggs and beans into meals.",
+    "initiatives": [
+      "Save the Children sector-wide nutrition champion and advocacy programs in Kakamega",
+      "Kakamega County Nutrition Scorecard (KHIS-based) for tracking stunting, wasting and underweight",
+      "County Government multi-sectoral nutrition programming under the County Nutrition Action Plan"
+    ],
+    "success_story": "Kakamega County reduced stunting from 28% (2014) to 12% (2022) and wasting from 11.7% to 2%, attributed to collaborative multi-sectoral efforts by the county government and partners — among Kenya's most pronounced stunting declines."
+  },
+  "Kitale": {
+    "drivers": [
+      "Paradox of malnutrition in Kenya's 'food basket': 21.3% stunting, 11.1% underweight, 3.2% wasting despite high county food production",
+      "Poverty in subsistence-farming and peri-urban areas (e.g. Endebess sub-county) where households sell surplus for cash but cannot afford diverse diets",
+      "Market and food-system dynamics that keep nutrient-rich foods out of reach of poor families",
+      "Sub-optimal infant feeding and limited maternal nutrition knowledge"
+    ],
+    "testimony": "Representative composite: Wafula, a maize farmer in Endebess, Trans Nzoia, sells his harvest to pay school fees but cannot afford protein-rich foods for his toddler. During a routine clinic visit the child was found moderately underweight; a health worker referred the family to a community nutrition group supported by AMPATH.",
+    "initiatives": [
+      "AMPATH Kenya (Moi University/Moi Teaching & Referral Hospital partnership) nutrition screening and treatment in Trans Nzoia",
+      "Trans Nzoia County Nutrition Action Plan 2023-2027 — multi-sectoral strategy with partners",
+      "USAID AMPATH Uzima integrated maternal and child health and nutrition services"
+    ],
+    "success_story": "Trans Nzoia County launched its first-generation County Nutrition Action Plan (2023-2027) with over KSh 14 million committed, anchoring a multi-sectoral approach (AMPATH, USAID and County Health Department) to bring the 21.3% stunting rate below national levels."
+  },
+  "Eldoret": {
+    "drivers": [
+      "High stunting among preschoolers — ~29.4% (with boys worse at 33.5%), above the national average",
+      "Rapid urbanization and peri-urban poverty in greater Eldoret creating food-insecure pockets",
+      "Sub-optimal infant and young child feeding practices and low dietary diversity",
+      "Limited caregiver nutrition knowledge and large household sizes"
+    ],
+    "testimony": "Representative composite: Cherono, a mother of four on the outskirts of Eldoret, earns a modest income selling vegetables in town but cannot afford milk or eggs regularly. Her two-year-old was identified as stunted at an AMPATH-supported clinic; she has since begun nutrition counselling and a small kitchen-garden program.",
+    "initiatives": [
+      "AMPATH (Academic Model Providing Access to Healthcare) — Moi University/Moi Teaching & Referral Hospital and Indiana University partnership delivering nutrition services in Uasin Gishu",
+      "Uasin Gishu County first-generation multi-sectoral County Nutrition Action Plan (launched 2026)",
+      "Kenya Health Information System (KHIS) surveillance of child growth indicators at county facilities"
+    ],
+    "success_story": "Uasin Gishu County developed its first-generation multi-sectoral County Nutrition Action Plan in 2026 to guide nutrition-specific, nutrition-sensitive and enabling interventions — building on AMPATH's long-standing community health platform to curb the 29.4% preschool stunting rate."
+  },
+  "Thika": {
+    "drivers": [
+      "Stunting at ~15.7% (KDHS 2014) — relatively low on average but masking pockets of need in informal peri-urban areas of Thika",
+      "Urbanization and declining farm sizes reducing household food production in formerly agricultural Kiambu",
+      "Low dietary diversity and rising cost of nutritious foods for low-income urban families",
+      "Maternal employment demands and limited childcare/feeding knowledge in working households"
+    ],
+    "testimony": "Representative composite: Njeri, a garment-factory worker in Thika, leaves her one-year-old with a neighbour while she works long shifts. The child receives mostly maize porridge and was found underweight at a welfare clinic; Njeri has now joined a county maternal-nutrition support group introducing affordable, diverse meals.",
+    "initiatives": [
+      "Kiambu County Nutrition Action Plan (CNaP) 2020/21-2024 targeting stunting and wasting reductions",
+      "Nutrition International county-level maternal and child nutrition programming",
+      "UNICEF Maternal and Child Nutrition Programme (multi-sectoral, 2018-2022) supporting county health services"
+    ],
+    "success_story": "Kiambu County, through its County Nutrition Action Plan (CNaP) and partner support, is targeting a 40% reduction in stunting and wasting below 5% by 2025 (aligning with World Health Assembly targets), leveraging UNICEF and Nutrition International support to strengthen maternal and infant nutrition services."
+  }
+}

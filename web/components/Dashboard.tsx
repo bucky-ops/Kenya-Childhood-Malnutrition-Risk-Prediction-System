@@ -3,10 +3,10 @@
 import { useState, useMemo } from 'react';
 import {
   Activity, AlertTriangle, Database, Heart, MapPin,
-  TrendingDown, TrendingUp, Stethoscope, Calendar, Gauge,
+  TrendingUp, Gauge,
 } from 'lucide-react';
 import type { MalnutritionData } from '@/lib/types';
-import { getRiskLevel, getRiskColor, getRiskDot } from '@/lib/types';
+import { getRiskLevel } from '@/lib/types';
 import StatCard from './StatCard';
 // Lazy-load the heavy Recharts components — improves FCP/LCP by deferring
 // the ~80 kB chart library until the dashboard actually renders.

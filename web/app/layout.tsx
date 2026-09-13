@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import NavBar from '@/components/NavBar';
 import './globals.css';
 
 const siteUrl = 'https://web-amber-xi-94.vercel.app';
@@ -66,6 +67,7 @@ export default function RootLayout({
         >
           Skip to main content
         </a>
+        <NavBar />
         {children}
         {/* Vercel Analytics — privacy-friendly real-user monitoring */}
         <Analytics />

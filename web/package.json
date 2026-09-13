@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "next dev -p 3000",
     "build": "next build",
-    "start": "next start -p 3001",
+    "start": "next start -p 3000",
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.0",
+    "next": "15.5.25",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "recharts": "^2.15.0",
@@ -26,6 +26,6 @@
     "postcss": "^8.5.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
-    "eslint-config-next": "15.1.0"
+    "eslint-config-next": "15.5.25"
   }
 }

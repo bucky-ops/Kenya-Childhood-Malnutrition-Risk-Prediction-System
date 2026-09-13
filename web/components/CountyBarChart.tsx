@@ -25,7 +25,7 @@ export default function CountyBarChart({ summary }: { summary: CountySummary[] }
   return (
     <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm h-full">
       <div className="flex items-center gap-2 mb-4">
-        <BarChart3 className="w-5 h-5 text-brand-600" />
+        <BarChart3 className="w-5 h-5 text-brand-600" aria-hidden="true" />
         <h2 className="text-lg font-bold text-slate-900">Cases by County</h2>
       </div>
       <ResponsiveContainer width="100%" height={300}>

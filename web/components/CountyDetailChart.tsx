@@ -36,7 +36,7 @@ export default function CountyDetailChart({
     <div className="bg-white rounded-2xl border border-slate-200 p-5 shadow-sm">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
         <div className="flex items-center gap-2">
-          <MapPin className="w-5 h-5 text-brand-600" />
+          <MapPin className="w-5 h-5 text-brand-600" aria-hidden="true" />
           <h2 className="text-lg font-bold text-slate-900">{county} County</h2>
         </div>
         <div className="flex gap-4 text-sm">

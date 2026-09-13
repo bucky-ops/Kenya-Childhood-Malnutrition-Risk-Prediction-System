@@ -88,10 +88,12 @@ export default function Dashboard({ data }: { data: MalnutritionData }) {
         <section>
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-xl font-bold text-slate-900 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-brand-600" />
+              <MapPin className="w-5 h-5 text-brand-600" aria-hidden="true" />
               County-Level Detail
             </h2>
+            <label htmlFor="county-select" className="sr-only">Select a county to inspect</label>
             <select
+              id="county-select"
               value={selectedCounty}
               onChange={(e) => setSelectedCounty(e.target.value)}
               className="px-4 py-2 rounded-lg border border-slate-300 bg-white text-slate-900 text-sm font-medium focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent shadow-sm"
@@ -120,7 +122,7 @@ export default function Dashboard({ data }: { data: MalnutritionData }) {
         {/* Footer */}
         <footer className="border-t border-slate-200 pt-6 mt-8 text-center text-sm text-slate-500">
           <p className="flex items-center justify-center gap-2 mb-2">
-            <Heart className="w-4 h-4 text-brand-500" />
+            <Heart className="w-4 h-4 text-brand-500" aria-hidden="true" />
             <span className="font-medium">An open-source Digital Public Good</span>
           </p>
           <p>
@@ -129,7 +131,7 @@ export default function Dashboard({ data }: { data: MalnutritionData }) {
             decisions must be made by qualified health professionals.
           </p>
           <p className="mt-3 text-xs">
-            <Database className="inline w-3 h-3 mr-1" />
+            <Database className="inline w-3 h-3 mr-1" aria-hidden="true" />
             Data sources: WHO · UNICEF · DHIS2 · Kenya MoH
           </p>
         </footer>

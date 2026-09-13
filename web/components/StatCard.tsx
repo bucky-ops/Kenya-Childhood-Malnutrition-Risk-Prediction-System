@@ -29,7 +29,7 @@ export default function StatCard({ icon, label, value, subtext, color }: StatCar
           <p className="mt-1 text-xs text-slate-500 truncate">{subtext}</p>
         )}
       </div>
-      <div className={clsx('rounded-xl p-2.5 text-white shrink-0', c.icon)}>
+      <div className={clsx('rounded-xl p-2.5 text-white shrink-0', c.icon)} aria-hidden="true">
         {icon}
       </div>
     </div>

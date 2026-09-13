@@ -12,7 +12,7 @@ export default function Header({
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="bg-white/20 backdrop-blur-sm rounded-xl p-2.5">
+            <div className="bg-white/20 backdrop-blur-sm rounded-xl p-2.5" aria-hidden="true">
               <Stethoscope className="w-8 h-8" />
             </div>
             <div>
@@ -26,11 +26,11 @@ export default function Header({
           </div>
           <div className="flex flex-wrap items-center gap-3 text-sm">
             <span className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-lg px-3 py-1.5">
-              <Calendar className="w-4 h-4" />
+              <Calendar className="w-4 h-4" aria-hidden="true" />
               Updated {generatedAt}
             </span>
             <span className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-lg px-3 py-1.5">
-              <Database className="w-4 h-4" />
+              <Database className="w-4 h-4" aria-hidden="true" />
               {totalRecords.toLocaleString()} records
             </span>
           </div>

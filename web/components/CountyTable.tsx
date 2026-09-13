@@ -14,7 +14,7 @@ export default function CountyTable({
   return (
     <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
       <div className="flex items-center gap-2 px-5 py-4 border-b border-slate-200">
-        <Table2 className="w-5 h-5 text-brand-600" />
+        <Table2 className="w-5 h-5 text-brand-600" aria-hidden="true" />
         <h2 className="text-lg font-bold text-slate-900">County Risk Ranking</h2>
         <span className="ml-auto text-xs text-slate-500">
           Click a row to inspect →
@@ -40,9 +40,18 @@ export default function CountyTable({
                 <tr
                   key={c.county}
                   onClick={() => onSelect(c.county)}
-                  className="border-t border-slate-100 hover:bg-emerald-50/50 cursor-pointer transition-colors"
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      onSelect(c.county);
+                    }
+                  }}
+                  tabIndex={0}
+                  role="button"
+                  aria-label={`Inspect ${c.county} county: ${c.predicted_cases.toLocaleString()} predicted cases, risk level ${level}`}
+                  className="border-t border-slate-100 hover:bg-emerald-50/50 hover:cursor-pointer focus:bg-emerald-50 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-emerald-500 transition-colors"
                 >
-                  <td className="px-5 py-3 text-slate-400 font-mono">#{i + 1}</td>
+                  <td className="px-5 py-3 text-slate-500 font-mono">#{i + 1}</td>
                   <td className="px-5 py-3 font-semibold text-slate-900">{c.county}</td>
                   <td className="px-5 py-3 text-right font-bold text-brand-700">
                     {c.predicted_cases.toLocaleString()}
@@ -57,8 +66,8 @@ export default function CountyTable({
                       {level}
                     </span>
                   </td>
-                  <td className="px-5 py-3 text-slate-400">
-                    <ChevronRight className="w-4 h-4" />
+                  <td className="px-5 py-3 text-slate-500">
+                    <ChevronRight className="w-4 h-4" aria-hidden="true" />
                   </td>
                 </tr>
               );

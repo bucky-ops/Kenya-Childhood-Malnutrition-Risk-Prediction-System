@@ -1,4 +1,6 @@
 import type { Metadata, Viewport } from 'next';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import './globals.css';
 
 const siteUrl = 'https://web-amber-xi-94.vercel.app';
@@ -65,6 +67,10 @@ export default function RootLayout({
           Skip to main content
         </a>
         {children}
+        {/* Vercel Analytics — privacy-friendly real-user monitoring */}
+        <Analytics />
+        {/* Vercel Speed Insights — Core Web Vitals (LCP, FID, CLS) tracking */}
+        <SpeedInsights />
       </body>
     </html>
   );

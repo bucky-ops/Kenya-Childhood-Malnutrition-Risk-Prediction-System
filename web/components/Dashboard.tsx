@@ -8,9 +8,9 @@ import {
 import type { MalnutritionData } from '@/lib/types';
 import { getRiskLevel, getRiskColor, getRiskDot } from '@/lib/types';
 import StatCard from './StatCard';
-import NationalTrendChart from './NationalTrendChart';
-import CountyBarChart from './CountyBarChart';
-import CountyDetailChart from './CountyDetailChart';
+// Lazy-load the heavy Recharts components — improves FCP/LCP by deferring
+// the ~80 kB chart library until the dashboard actually renders.
+import { NationalTrendChart, CountyBarChart, CountyDetailChart } from './lazy';
 import CountyTable from './CountyTable';
 import ValidationPanel from './ValidationPanel';
 import Header from './Header';

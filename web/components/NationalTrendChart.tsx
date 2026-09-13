@@ -1,7 +1,7 @@
 'use client';
 
 import {
-  ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid,
+  ResponsiveContainer, XAxis, YAxis, CartesianGrid,
   Tooltip, Legend, Area, AreaChart,
 } from 'recharts';
 import { TrendingDown } from 'lucide-react';

@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Husky pre-commit hook — runs lint-staged on changed files only.
+# This enforces Prettier formatting + ESLint fixes before code lands.
+cd web && npx lint-staged

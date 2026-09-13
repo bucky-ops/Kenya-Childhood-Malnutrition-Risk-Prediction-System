@@ -148,5 +148,620 @@
       "UNICEF Maternal and Child Nutrition Programme (multi-sectoral, 2018-2022) supporting county health services"
     ],
     "success_story": "Kiambu County, through its County Nutrition Action Plan (CNaP) and partner support, is targeting a 40% reduction in stunting and wasting below 5% by 2025 (aligning with World Health Assembly targets), leveraging UNICEF and Nutrition International support to strengthen maternal and infant nutrition services."
+  },
+  "Tana River": {
+    "drivers": [
+      "Recurrent drought in this ASAL county decimates pastoralist livelihoods",
+      "Poor road infrastructure limits access to health facilities during the rainy season",
+      "High malaria and diarrhoea burden compounding undernutrition",
+      "Low female literacy and limited maternal health services"
+    ],
+    "testimony": "Representative composite: Halima, a pastoralist mother along the Tana River, walked 30 km to the nearest dispensary when her 18-month-old developed fever and refused to eat. He was diagnosed with severe acute malnutrition and admitted to outpatient therapeutic feeding.",
+    "initiatives": [
+      "Kenya Red Cross drought-response nutrition outreach",
+      "County Department of Health IMAM/CMAM sites",
+      "World Vision Tana River nutrition and WASH programs"
+    ],
+    "success_story": "Tana River County, with Kenya Red Cross and World Vision support, expanded mobile nutrition outreach to hard-to-reach pastoralist communities during recent drought cycles, improving early detection of acute malnutrition."
+  },
+  "Lamu": {
+    "drivers": [
+      "Remote island geography limits access to mainland health facilities",
+      "Fishing-dependent economy with high food price volatility",
+      "Security challenges in border areas disrupting health outreach",
+      "Limited maternal education and IYCF knowledge"
+    ],
+    "testimony": "Representative composite: Fatuma, a mother on Lamu Island, lost her fisherman husband's income to a poor season. Her two-year-old was screened during a county outreach and found moderately malnourished; she was enrolled in supplementary feeding.",
+    "initiatives": [
+      "Lamu County Department of Health mobile clinic nutrition outreach",
+      "Kenya Red Cross Cross-border health and nutrition program",
+      "AMREF Flying Doctors outreach to remote islands"
+    ],
+    "success_story": "Lamu County's mobile clinic outreach, supported by AMREF and the Kenya Red Cross, has reached remote island communities with nutrition screening and vitamin A supplementation where static facilities are inaccessible."
+  },
+  "Taita-Taveta": {
+    "drivers": [
+      "Rural poverty in a county with mining and ranching economies",
+      "Sub-optimal infant and young child feeding practices",
+      "Limited access to diversified foods in remote villages",
+      "Recurrent water shortages affecting hygiene and food preparation"
+    ],
+    "testimony": "Representative composite: Mwajuma, a small-scale farmer in Taita-Taveta, watches her cassava harvest dwindle each dry season. Her three-year-old was flagged as underweight during a child welfare clinic visit; she has since joined a county complementary-feeding support group.",
+    "initiatives": [
+      "Taita-Taveta County Department of Health nutrition services",
+      "World Vision child health and nutrition programming",
+      "WASH programs targeting rural water access"
+    ],
+    "success_story": "Taita-Taveta County has integrated WASH and nutrition programming, with World Vision support, to address the dual burden of water scarcity and undernutrition in rural villages."
+  },
+  "Kwale": {
+    "drivers": [
+      "Deep rural poverty in coastal hinterland communities",
+      "High stunting driven by poor dietary diversity",
+      "Limited maternal education and sub-optimal IYCF practices",
+      "Malaria and diarrhoea burden compounding undernutrition"
+    ],
+    "testimony": "Representative composite: Mwanahawa, a subsistence farmer in Kwale's interior, feeds her children mostly maize porridge. Her 22-month-old was diagnosed as stunted during a community health volunteer screening; she was enrolled in a kitchen-garden and nutrition-counselling program.",
+    "initiatives": [
+      "World Vision Kwale health and nutrition interventions",
+      "Kwale County Department of Health IMAM sites",
+      "UNICEF maternal and child nutrition support"
+    ],
+    "success_story": "Kwale County, with World Vision and UNICEF support, has scaled community health volunteer screening and kitchen-garden programs to bring down high coastal stunting rates."
+  },
+  "Wajir": {
+    "drivers": [
+      "Chronic drought in this arid pastoralist county decimating livestock",
+      "Acute malnutrition regularly exceeding WHO emergency thresholds (GAM > 15%)",
+      "Vast county with sparse, hard-to-reach health infrastructure",
+      "Recurrent disease outbreaks (cholera, measles, Rift Valley fever)"
+    ],
+    "testimony": "Representative composite: Fadumo, a pastoralist mother in Wajir, lost half her goats in the 2022 drought. Her two-year-old was admitted to the IMAM outpatient therapeutic program with severe acute malnutrition and recovered over eight weeks of RUTF treatment.",
+    "initiatives": [
+      "UNICEF-supported IMAM/CMAM program across Wajir sub-counties",
+      "Save the Children drought-response nutrition and WASH programs",
+      "NDMA early warning and contingency response"
+    ],
+    "success_story": "Wajir County, with UNICEF and Save the Children support, expanded IMAM outpatient therapeutic feeding during the 2021-2023 Horn of Africa drought, admitting thousands of children for treatment and preventing excess mortality."
+  },
+  "Mandera": {
+    "drivers": [
+      "Extreme remoteness in this north-eastern ASAL county",
+      "Chronic drought and livestock losses among pastoralists",
+      "Cross-border conflict disrupting health outreach",
+      "GAM prevalence often exceeding 20% (IPC Phase 4 Critical)"
+    ],
+    "testimony": "Representative composite: Zeinab, a mother of five in Mandera, walks 25 km to the nearest health facility. Her three-year-old was screened during an outreach mission and found severely malnourished; she was enrolled in therapeutic feeding and the family received a cash transfer.",
+    "initiatives": [
+      "MSF (Médecins Sans Frontières) nutrition programs in Mandera",
+      "UNICEF IMAM and WASH response",
+      "County Department of Health mobile outreach teams"
+    ],
+    "success_story": "Mandera County, with MSF and UNICEF support, maintained therapeutic feeding programs during drought and conflict periods, treating thousands of children for severe acute malnutrition in one of Kenya's most remote counties."
+  },
+  "Marsabit": {
+    "drivers": [
+      "Vast arid county with pastoralist livelihoods highly vulnerable to drought",
+      "Sparse health infrastructure across a 66,000 km² county",
+      "Recurrent resource-based conflict between pastoralist communities",
+      "GAM prevalence often above emergency thresholds"
+    ],
+    "testimony": "Representative composite: Boru, a pastoralist in Marsabit, lost cattle in the 2022 drought. His two-year-old daughter was diagnosed with severe acute malnutrition at a mobile clinic; she recovered after eight weeks of therapeutic feeding.",
+    "initiatives": [
+      "Concern Worldwide nutrition and resilience programs in Marsabit",
+      "UNICEF IMAM and WASH support",
+      "County Department of Health mobile outreach"
+    ],
+    "success_story": "Marsabit County, with Concern Worldwide and UNICEF support, scaled mobile nutrition outreach to pastoralist communities during drought periods, improving early detection of acute malnutrition in remote rangelands."
+  },
+  "Isiolo": {
+    "drivers": [
+      "ASAL county with pastoralist livelihoods vulnerable to drought",
+      "Limited diversification of the food base beyond livestock products",
+      "Poor WASH access in remote settlements",
+      "Cross-county pastoralist migration patterns complicating continuity of care"
+    ],
+    "testimony": "Representative composite: Jillo, a pastoralist mother in Isiolo, travels seasonally with her goats. Her 18-month-old was screened at a county health centre during a drought-response mission and found moderately malnourished; she was enrolled in supplementary feeding.",
+    "initiatives": [
+      "County Department of Health IMAM program",
+      "World Vision Isiolo nutrition and WASH interventions",
+      "NDMA drought early warning and response"
+    ],
+    "success_story": "Isiolo County's integration of NDMA early warning with IMAM outreach has improved the timeliness of drought-response nutrition interventions for pastoralist communities."
+  },
+  "Kitui": {
+    "drivers": [
+      "Recurrent drought in this semi-arid county affecting food production",
+      "High poverty rates limiting dietary diversity",
+      "Sub-optimal IYCF practices and low maternal nutrition knowledge",
+      "Limited access to clean water and sanitation"
+    ],
+    "testimony": "Representative composite: Ndinda, a smallholder farmer in Kitui, watches her maize and beans fail each dry season. Her two-year-old was flagged as underweight at a child welfare clinic; she joined a county nutrition group focused on drought-resilient crops.",
+    "initiatives": [
+      "World Vision Kitui health and nutrition programs",
+      "County Department of Health IMAM sites",
+      "Action Against Hunger nutrition and WASH response during drought"
+    ],
+    "success_story": "Kitui County, with World Vision and Action Against Hunger support, scaled IMAM and drought-resilient crop promotion during recent dry spells, integrating nutrition with food security programming."
+  },
+  "Machakos": {
+    "drivers": [
+      "Semi-arid conditions limiting agricultural productivity",
+      "Urban-rural poverty gap with pockets of food insecurity",
+      "Sub-optimal infant and young child feeding practices",
+      "Water scarcity affecting hygiene and food preparation"
+    ],
+    "testimony": "Representative composite: Mutiso, a casual labourer in Machakos town, struggles to afford a diverse diet. His two-year-old was found underweight at a clinic; the family joined a county nutrition-counselling group introducing affordable protein sources.",
+    "initiatives": [
+      "Machakos County Department of Health nutrition services",
+      "Catholic Relief Services food security and nutrition programs",
+      "Caritas Machakos drought response"
+    ],
+    "success_story": "Machakos County integrated nutrition counselling with food-security programming through partners like CRS and Caritas, improving household dietary diversity in drought-affected wards."
+  },
+  "Makueni": {
+    "drivers": [
+      "Semi-arid county with recurrent drought affecting harvests",
+      "Poverty limiting access to nutrient-rich foods",
+      "Sub-optimal IYCF practices",
+      "Water and sanitation challenges in rural wards"
+    ],
+    "testimony": "Representative composite: Mbithi, a farmer in Makueni, lost his mango and bean harvest to a poor rainy season. His 20-month-old was screened at a clinic and found moderately malnourished; the family was enrolled in supplementary feeding.",
+    "initiatives": [
+      "Makueni County Department of Health nutrition services",
+      "World Vision Makueni health and nutrition programs",
+      "County-led food security and drought-resilient crop initiatives"
+    ],
+    "success_story": "Makueni County's investment in drought-resilient agriculture (mangoes, sorghum) alongside IMAM services is reducing the seasonal spikes in acute malnutrition."
+  },
+  "Meru": {
+    "drivers": [
+      "Rural poverty in this agricultural county",
+      "Sub-optimal IYCF practices and low dietary diversity in poorer households",
+      "Limited maternal nutrition knowledge in remote areas",
+      "Recurrent infections in young children"
+    ],
+    "testimony": "Representative composite: Kagendo, a smallholder farmer in Meru, grows miraa (khat) for cash income but cannot afford diverse foods for her toddler. Her two-year-old was found stunted at a clinic; she has started a kitchen garden.",
+    "initiatives": [
+      "Meru County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "KHIS surveillance of child growth indicators"
+    ],
+    "success_story": "Meru County, with Nutrition International support, has strengthened county-level nutrition surveillance and IYCF counselling at health facilities."
+  },
+  "Tharaka-Nithi": {
+    "drivers": [
+      "Rural poverty and small farm sizes",
+      "Sub-optimal infant feeding practices",
+      "Limited dietary diversity",
+      "Recurrent infections"
+    ],
+    "testimony": "Representative composite: Kagiri, a farmer in Tharaka-Nithi, feeds her children mostly maize and beans. Her two-year-old was flagged as stunted at a child welfare clinic; she has joined a complementary-feeding support group.",
+    "initiatives": [
+      "Tharaka-Nithi County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "KHIS child growth surveillance"
+    ],
+    "success_story": "Tharaka-Nithi County has integrated IYCF counselling into routine child welfare clinics, with Nutrition International support, to address persistent stunting."
+  },
+  "Embu": {
+    "drivers": [
+      "Rural poverty in this agricultural county",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity in poorer households",
+      "Recurrent infections in young children"
+    ],
+    "testimony": "Representative composite: Njeri, a smallholder farmer in Embu, grows coffee for cash but cannot afford diverse foods. Her two-year-old was found underweight at a clinic; she joined a county nutrition-counselling group.",
+    "initiatives": [
+      "Embu County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "AGRICORD agriculture-nutrition programs"
+    ],
+    "success_story": "Embu County has linked agriculture extension with nutrition counselling, with partner support, to improve household dietary diversity."
+  },
+  "Kirinyaga": {
+    "drivers": [
+      "Rural poverty despite agricultural productivity",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity in poorer households",
+      "Maternal employment demands limiting childcare time"
+    ],
+    "testimony": "Representative composite: Wanjiku, a casual farm labourer in Kirinyaga, leaves her one-year-old with a relative during work hours. The child was found underweight at a clinic; Wanjiku joined a maternal-nutrition support group.",
+    "initiatives": [
+      "Kirinyaga County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "Baby-Friendly Community Initiative pilots"
+    ],
+    "success_story": "Kirinyaga County has piloted the Baby-Friendly Community Initiative to extend breastfeeding support beyond facilities into villages."
+  },
+  "Murang'a": {
+    "drivers": [
+      "Declining farm sizes reducing household food production",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity in lower-income households",
+      "Maternal employment demands"
+    ],
+    "testimony": "Representative composite: Wangari, a tea-picker in Murang'a, earns KSh 350 a day. Rising food prices pushed her to skip meals; her 18-month-old was diagnosed with moderate acute malnutrition at a dispensary.",
+    "initiatives": [
+      "Murang'a County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "KHIS child growth surveillance"
+    ],
+    "success_story": "Murang'a County has integrated nutrition counselling into tea-plantation outreach, with Nutrition International support, to reach working mothers."
+  },
+  "Nyandarua": {
+    "drivers": [
+      "Rural poverty in this agricultural county",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity",
+      "Cold-climate crop limitations"
+    ],
+    "testimony": "Representative composite: Wambui, a dairy farmer in Nyandarua, sells milk to pay school fees. Her two-year-old was found stunted at a clinic; she has started keeping milk for household consumption.",
+    "initiatives": [
+      "Nyandarua County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "GAIN market-based nutrition programs"
+    ],
+    "success_story": "Nyandarua County, with GAIN support, has piloted market-based approaches to make dairy and vegetables more affordable for poor households."
+  },
+  "Nyeri": {
+    "drivers": [
+      "Aging farming population and declining farm sizes",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity in lower-income households",
+      "Chronic disease burden in caregivers"
+    ],
+    "testimony": "Representative composite: Wacu, a grandmother caring for her orphaned grandson in Nyeri, feeds him mostly maize porridge. The two-year-old was found underweight at a clinic; she joined a county caregiver support group.",
+    "initiatives": [
+      "Nyeri County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "Catholic Church Caritas nutrition programs"
+    ],
+    "success_story": "Nyeri County, with Caritas support, has run caregiver support groups for grandparents raising orphaned children, improving their nutrition knowledge."
+  },
+  "Turkana": {
+    "drivers": [
+      "Chronic drought in this vast arid county decimating pastoralist livelihoods",
+      "GAM regularly exceeding 30% (IPC Phase 4-5 Critical to Catastrophe)",
+      "Extreme remoteness across an 71,000 km² county",
+      "Recurrent disease outbreaks and poor WASH"
+    ],
+    "testimony": "Representative composite: Etabo, a Turkana pastoralist, lost his entire goat herd in the 2022 drought. His two-year-old was admitted to an IRC-stabilisation centre with severe acute malnutrition and medical complications; she recovered after three weeks of inpatient care.",
+    "initiatives": [
+      "International Rescue Committee (IRC) nutrition programs in Turkana",
+      "UNICEF IMAM and stabilisation-centre support",
+      "Concern Worldwide and World Vision Turkana drought response"
+    ],
+    "success_story": "Turkana County, with IRC, UNICEF, Concern and World Vision support, scaled IMAM and stabilisation-centre capacity during the 2021-2023 drought, treating tens of thousands of children for acute malnutrition."
+  },
+  "West Pokot": {
+    "drivers": [
+      "ASAL conditions in this pastoralist county",
+      "Recurrent drought and cattle rustling conflict",
+      "Limited health infrastructure in remote areas",
+      "High poverty and low female literacy"
+    ],
+    "testimony": "Representative composite: Cheptoo, a Pokot pastoralist, lost goats to drought and conflict. Her two-year-old was screened at a mobile clinic and found severely malnourished; he was enrolled in therapeutic feeding and the family received a cash transfer.",
+    "initiatives": [
+      "World Vision West Pokot nutrition programs",
+      "County Department of Health IMAM sites",
+      "Pastoralist peace-building + nutrition programs"
+    ],
+    "success_story": "West Pokot County, with World Vision support, has linked peace-building with nutrition outreach to reach conflict-affected pastoralist communities."
+  },
+  "Samburu": {
+    "drivers": [
+      "ASAL pastoralist county vulnerable to drought",
+      "Cattle rustling conflict disrupting health outreach",
+      "Vast remote area with sparse health infrastructure",
+      "GAM prevalence often above emergency thresholds"
+    ],
+    "testimony": "Representative composite: Lemarti, a Samburu pastoralist, lost cattle to drought and raiding. His two-year-old was screened during a county mobile outreach and found moderately malnourished; the family was enrolled in supplementary feeding.",
+    "initiatives": [
+      "County Department of Health mobile nutrition outreach",
+      "World Vision Samburu programs",
+      "NDMA early warning and response"
+    ],
+    "success_story": "Samburu County, with World Vision and NDMA support, has used mobile outreach to deliver nutrition services to remote manyattas (homesteads)."
+  },
+  "Elgeyo-Marakwet": {
+    "drivers": [
+      "Steep terrain limiting access to health facilities",
+      "Rural poverty in this Rift Valley county",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity"
+    ],
+    "testimony": "Representative composite: Chebet, a farmer on the Elgeyo escarpment, walks 2 hours to the nearest clinic. Her 20-month-old was found underweight during a mobile outreach visit; she joined a complementary-feeding group.",
+    "initiatives": [
+      "County Department of Health mobile outreach",
+      "World Vision nutrition programs",
+      "AMREF health outreach"
+    ],
+    "success_story": "Elgeyo-Marakwet County has used mobile outreach to reach escarpment communities with nutrition screening and IYCF counselling."
+  },
+  "Baringo": {
+    "drivers": [
+      "ASAL conditions and recurrent drought",
+      "Cattle rustling conflict disrupting health services",
+      "Limited health infrastructure in remote areas",
+      "Poor WASH access"
+    ],
+    "testimony": "Representative composite: Kiprono, a pastoralist in Baringo, lost cattle to drought and conflict. His two-year-old was screened at a mobile clinic and found severely malnourished; he was enrolled in therapeutic feeding.",
+    "initiatives": [
+      "County Department of Health IMAM sites",
+      "World Vision Baringo programs",
+      "Kenya Red Cross conflict-response nutrition outreach"
+    ],
+    "success_story": "Baringo County, with Kenya Red Cross and World Vision support, has delivered nutrition outreach to conflict-affected communities along the Kerio Valley."
+  },
+  "Laikipia": {
+    "drivers": [
+      "Semi-arid conditions and pastoralist-agriculturalist tensions",
+      "Rural poverty in lower-income areas",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity"
+    ],
+    "testimony": "Representative composite: Naisula, a Maasai mother in Laikipia, lives far from the nearest clinic. Her two-year-old was screened during a county outreach and found moderately malnourished; she was enrolled in supplementary feeding.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "Ol Pejeta Conservancy community health programs",
+      "World Vision Laikipia programs"
+    ],
+    "success_story": "Laikipia County has partnered with conservancies to extend community health outreach to pastoralist communities living near wildlife conservancies."
+  },
+  "Narok": {
+    "drivers": [
+      "ASAL conditions and pastoralist livelihoods vulnerable to drought",
+      "High poverty rates in remote Maasai communities",
+      "Sub-optimal IYCF practices and low female literacy",
+      "Limited access to health facilities"
+    ],
+    "testimony": "Representative composite: Naserian, a Maasai mother in Narok, walks 15 km to the nearest dispensary. Her 18-month-old was found severely malnourished during an outreach; he was admitted to outpatient therapeutic feeding.",
+    "initiatives": [
+      "County Department of Health IMAM sites",
+      "World Vision Narok nutrition programs",
+      "AMREF mobile outreach"
+    ],
+    "success_story": "Narok County, with AMREF and World Vision support, has used mobile outreach to reach remote Maasai manyattas with nutrition screening and vitamin A supplementation."
+  },
+  "Kajiado": {
+    "drivers": [
+      "ASAL conditions and pastoralist livelihoods vulnerable to drought",
+      "High poverty in remote Maasai communities",
+      "Sub-optimal IYCF practices",
+      "Limited access to health facilities in vast county"
+    ],
+    "testimony": "Representative composite: Sena, a Maasai mother in Kajiado, lost goats in a recent drought. Her two-year-old was screened at a mobile clinic and found moderately malnourished; she was enrolled in supplementary feeding.",
+    "initiatives": [
+      "County Department of Health IMAM sites",
+      "AMREF mobile outreach",
+      "World Vision Kajiado programs"
+    ],
+    "success_story": "Kajiado County, with AMREF support, has extended mobile nutrition outreach to remote Maasai communities, improving early detection of acute malnutrition."
+  },
+  "Kericho": {
+    "drivers": [
+      "Tea-plantation economy with casual labourer poverty",
+      "Sub-optimal IYCF practices among plantation workers",
+      "Limited dietary diversity",
+      "Maternal employment demands limiting childcare"
+    ],
+    "testimony": "Representative composite: Cherono, a tea-picker in Kericho, earns KSh 400 a day. Her one-year-old receives mostly maize porridge while she works; he was found underweight at a clinic and she joined a maternal-nutrition group.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "Tea companies' workplace nutrition programs"
+    ],
+    "success_story": "Kericho County has engaged tea companies in workplace nutrition programs, with Nutrition International support, to reach working mothers on plantations."
+  },
+  "Bomet": {
+    "drivers": [
+      "Rural poverty in this Rift Valley agricultural county",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity in poorer households",
+      "Large household sizes limiting childcare quality"
+    ],
+    "testimony": "Representative composite: Chebet, a smallholder farmer in Bomet, feeds her four children mostly maize and milk. Her two-year-old was found stunted at a clinic; she has started a kitchen garden with support from a community health volunteer.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "KHIS child growth surveillance"
+    ],
+    "success_story": "Bomet County, with Nutrition International support, has scaled kitchen-garden and IYCF counselling programs to address stunting in rural wards."
+  },
+  "Nandi": {
+    "drivers": [
+      "Rural poverty in this agricultural county",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity in poorer households",
+      "Malaria and diarrhoea burden"
+    ],
+    "testimony": "Representative composite: Jeptoo, a smallholder farmer in Nandi, grows maize for sale but cannot afford diverse foods. Her two-year-old was found underweight at a clinic; she joined a complementary-feeding group.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "KHIS child growth surveillance"
+    ],
+    "success_story": "Nandi County has integrated nutrition counselling with malaria-prevention outreach, addressing the dual burden of infection and undernutrition."
+  },
+  "Vihiga": {
+    "drivers": [
+      "Small land holdings limiting food production",
+      "High population density and rural poverty",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity"
+    ],
+    "testimony": "Representative composite: Nafula, a mother of three in Vihiga, farms a tiny plot. Her 20-month-old was found stunted at a clinic; she joined a kitchen-garden and nutrition-counselling program.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "KHIS child growth surveillance"
+    ],
+    "success_story": "Vihiga County has promoted kitchen gardens on tiny plots to improve household dietary diversity."
+  },
+  "Bungoma": {
+    "drivers": [
+      "Rural poverty in this agricultural county",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity in poorer households",
+      "Malaria and diarrhoea burden"
+    ],
+    "testimony": "Representative composite: Nekesa, a smallholder farmer in Bungoma, grows maize for sale. Her two-year-old was found underweight at a clinic; she joined a complementary-feeding group introducing eggs and beans.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "World Vision Bungoma programs",
+      "Nutrition International county-level support"
+    ],
+    "success_story": "Bungoma County, with World Vision support, has scaled kitchen-garden and IYCF counselling programs in rural wards."
+  },
+  "Busia": {
+    "drivers": [
+      "Border-county poverty and cross-border food insecurity",
+      "High malaria and HIV burden affecting child nutrition",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity"
+    ],
+    "testimony": "Representative composite: Akinyi, a fishmonger on the Busia border, sells fish at the market but cannot afford diverse foods at home. Her two-year-old was found underweight at a clinic; she joined a maternal-nutrition group.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "AMREF cross-border health programs",
+      "World Vision Busia programs"
+    ],
+    "success_story": "Busia County, with AMREF support, has piloted cross-border nutrition outreach to reach communities straddling the Kenya-Uganda border."
+  },
+  "Siaya": {
+    "drivers": [
+      "Rural poverty and high HIV prevalence affecting household food security",
+      "Fishing-community dynamics: fish sold for cash, not consumption",
+      "Malaria and diarrhoea burden",
+      "Sub-optimal IYCF practices"
+    ],
+    "testimony": "Representative composite: Achieng, a fishmonger on Lake Victoria's shore in Siaya, sells her daily catch at the beach. Her 14-month-old became underweight; a community health worker enrolled her in a Baby-Friendly Community Initiative group.",
+    "initiatives": [
+      "County Department of Health BFCI program",
+      "AMPATH Siaya nutrition services",
+      "CDC/PEPFAR HIV-nutrition programs"
+    ],
+    "success_story": "Siaya County, with CDC/PEPFAR support, has integrated nutrition counselling into HIV care programs to address the dual burden of HIV and undernutrition."
+  },
+  "Homa Bay": {
+    "drivers": [
+      "Rural poverty and high HIV prevalence",
+      "Fishing-community food insecurity",
+      "Malaria and diarrhoea burden",
+      "Sub-optimal IYCF practices"
+    ],
+    "testimony": "Representative composite: Atieno, a mother of five on the Homa Bay shore, lost her husband to HIV-related illness. Her two-year-old was found severely malnourished at a clinic; he was enrolled in therapeutic feeding and the family received an HIV-sensitive cash transfer.",
+    "initiatives": [
+      "County Department of Health IMAM and BFCI programs",
+      "CDC/PEPFAR HIV-nutrition programs",
+      "World Vision Homa Bay programs"
+    ],
+    "success_story": "Homa Bay County has integrated nutrition screening into HIV care, with CDC/PEPFAR support, addressing the disproportionate burden of malnutrition in HIV-affected households."
+  },
+  "Migori": {
+    "drivers": [
+      "Rural poverty in this mixed agricultural-mining county",
+      "High HIV and malaria burden",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity"
+    ],
+    "testimony": "Representative composite: Adhiambo, a smallholder farmer in Migori, also works in artisanal mining. Her two-year-old was found underweight at a clinic; she joined a complementary-feeding group.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "CDC/PEPFAR HIV-nutrition programs",
+      "World Vision Migori programs"
+    ],
+    "success_story": "Migori County has linked mining-cooperative outreach with nutrition counselling, with partner support, to reach working mothers in artisanal mining communities."
+  },
+  "Kisii": {
+    "drivers": [
+      "High population density and small land holdings",
+      "Rural poverty limiting dietary diversity",
+      "Sub-optimal IYCF practices",
+      "Malaria and diarrhoea burden"
+    ],
+    "testimony": "Representative composite: Kemunto, a smallholder farmer in Kisii, farms a tiny plot. Her 20-month-old was found stunted at a clinic; she joined a kitchen-garden and nutrition-counselling program.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "KHIS child growth surveillance"
+    ],
+    "success_story": "Kisii County, with Nutrition International support, has scaled kitchen-garden programs to address stunting in this densely-populated county."
+  },
+  "Nyamira": {
+    "drivers": [
+      "Small land holdings and rural poverty",
+      "Sub-optimal IYCF practices",
+      "Limited dietary diversity",
+      "Malaria burden"
+    ],
+    "testimony": "Representative composite: Moraa, a mother of three in Nyamira, farms a small plot. Her two-year-old was found stunted at a clinic; she joined a kitchen-garden and IYCF-counselling group.",
+    "initiatives": [
+      "County Department of Health nutrition services",
+      "Nutrition International county-level support",
+      "KHIS child growth surveillance"
+    ],
+    "success_story": "Nyamira County has promoted kitchen gardens and biofortified crops (orange-fleshed sweet potato) to improve household vitamin A intake."
+  },
+  "Kiambu": {
+    "drivers": [
+      "Stunting at ~15.7% (KDHS 2014) — relatively low on average but masking pockets of need in informal peri-urban areas of Thika",
+      "Urbanization and declining farm sizes reducing household food production in formerly agricultural Kiambu",
+      "Low dietary diversity and rising cost of nutritious foods for low-income urban families",
+      "Maternal employment demands and limited childcare/feeding knowledge in working households"
+    ],
+    "testimony": "Representative composite: Njeri, a garment-factory worker in Thika, leaves her one-year-old with a neighbour while she works long shifts. The child receives mostly maize porridge and was found underweight at a welfare clinic; Njeri has now joined a county maternal-nutrition support group introducing affordable, diverse meals.",
+    "initiatives": [
+      "Kiambu County Nutrition Action Plan (CNaP) 2020/21-2024 targeting stunting and wasting reductions",
+      "Nutrition International county-level maternal and child nutrition programming",
+      "UNICEF Maternal and Child Nutrition Programme (multi-sectoral, 2018-2022) supporting county health services"
+    ],
+    "success_story": "Kiambu County, through its County Nutrition Action Plan (CNaP) and partner support, is targeting a 40% reduction in stunting and wasting below 5% by 2025 (aligning with World Health Assembly targets), leveraging UNICEF and Nutrition International support to strengthen maternal and infant nutrition services."
+  },
+  "Kilifi": {
+    "drivers": [
+      "Highest stunting prevalence in Kenya at ~37% of under-fives, driven by deep rural poverty and food insecurity",
+      "Poor dietary intake and sub-optimal infant feeding practices, with low minimum acceptable diet among children 6-23 months",
+      "High morbidity from malaria, diarrhoea and respiratory infections that lower immunity and worsen wasting",
+      "Low maternal education and limited access to health services in remote coastal villages"
+    ],
+    "testimony": "Representative composite: Kadzo, a subsistence farmer in rural Kilifi near Malindi, watches her two-year-old daughter grow thinner each dry season as the family's cassava and maize harvest fails. A community health volunteer identified the child as malnourished during a screening and referred her to the nearest dispensary for therapeutic feeding.",
+    "initiatives": [
+      "World Vision Kenya health and nutrition interventions across Kilifi County",
+      "Kilifi County Integrated SMART Survey (KNBS-led) coordinating nutrition-specific and -sensitive actors",
+      "Kilifi County Department of Health IMAM/CMAM sites and vitamin A supplementation campaigns"
+    ],
+    "success_story": "Coordinated multi-actor nutrition programming in Kilifi — combining World Vision interventions, IMAM services and the 2023 Integrated SMART Survey — is guiding targeted scaling of infant and young child feeding education and vitamin A/Lipid-based Nutrient Supplement coverage to bring down the county's nation-leading 37% stunting rate."
+  },
+  "Trans Nzoia": {
+    "drivers": [
+      "Paradox of malnutrition in Kenya's 'food basket': 21.3% stunting, 11.1% underweight, 3.2% wasting despite high county food production",
+      "Poverty in subsistence-farming and peri-urban areas (e.g. Endebess sub-county) where households sell surplus for cash but cannot afford diverse diets",
+      "Market and food-system dynamics that keep nutrient-rich foods out of reach of poor families",
+      "Sub-optimal infant feeding and limited maternal nutrition knowledge"
+    ],
+    "testimony": "Representative composite: Wafula, a maize farmer in Endebess, Trans Nzoia, sells his harvest to pay school fees but cannot afford protein-rich foods for his toddler. During a routine clinic visit the child was found moderately underweight; a health worker referred the family to a community nutrition group supported by AMPATH.",
+    "initiatives": [
+      "AMPATH Kenya (Moi University/Moi Teaching & Referral Hospital partnership) nutrition screening and treatment in Trans Nzoia",
+      "Trans Nzoia County Nutrition Action Plan 2023-2027 — multi-sectoral strategy with partners",
+      "USAID AMPATH Uzima integrated maternal and child health and nutrition services"
+    ],
+    "success_story": "Trans Nzoia County launched its first-generation County Nutrition Action Plan (2023-2027) with over KSh 14 million committed, anchoring a multi-sectoral approach (AMPATH, USAID and County Health Department) to bring the 21.3% stunting rate below national levels."
+  },
+  "Uasin Gishu": {
+    "drivers": [
+      "High stunting among preschoolers — ~29.4% (with boys worse at 33.5%), above the national average",
+      "Rapid urbanization and peri-urban poverty in greater Eldoret creating food-insecure pockets",
+      "Sub-optimal infant and young child feeding practices and low dietary diversity",
+      "Limited caregiver nutrition knowledge and large household sizes"
+    ],
+    "testimony": "Representative composite: Cherono, a mother of four on the outskirts of Eldoret, earns a modest income selling vegetables in town but cannot afford milk or eggs regularly. Her two-year-old was identified as stunted at an AMPATH-supported clinic; she has since begun nutrition counselling and a small kitchen-garden program.",
+    "initiatives": [
+      "AMPATH (Academic Model Providing Access to Healthcare) — Moi University/Moi Teaching & Referral Hospital and Indiana University partnership delivering nutrition services in Uasin Gishu",
+      "Uasin Gishu County first-generation multi-sectoral County Nutrition Action Plan (launched 2026)",
+      "Kenya Health Information System (KHIS) surveillance of child growth indicators at county facilities"
+    ],
+    "success_story": "Uasin Gishu County developed its first-generation multi-sectoral County Nutrition Action Plan in 2026 to guide nutrition-specific, nutrition-sensitive and enabling interventions — building on AMPATH's long-standing community health platform to curb the 29.4% preschool stunting rate."
   }
 }

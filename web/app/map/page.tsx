@@ -1,23 +1,22 @@
-import KenyaMap from '@/components/KenyaMap';
-import CountyNarrativePanel from '@/components/CountyNarrativePanel';
 import MapClient from '@/components/MapClient';
 import data from '@/data/malnutrition_data.json';
 import narratives from '@/data/county_narratives.json';
 import type { CountyNarratives } from '@/lib/narratives';
 
 export const metadata = {
-  title: 'Interactive County Map',
-  description: 'Explore malnutrition risk across Kenya with an interactive GIS map, county drivers, family stories, local initiatives, and success stories.',
+  title: 'Interactive Kenya GIS Map',
+  description: 'Full-country interactive GIS map of Kenya showing malnutrition, stunting, wasting, WASH access, and poverty data across all 47 counties with zoom, pan, and sub-county disaggregation.',
 };
 
 const typedNarratives = narratives as CountyNarratives;
 
 export default function MapPage() {
+  // Use Garissa (a critical-risk county) as the initial selection
   return (
     <MapClient
       summary={data.summary}
       narratives={typedNarratives}
-      initialCounty={data.counties[0] ?? 'Garissa'}
+      initialCounty="Garissa"
     />
   );
 }

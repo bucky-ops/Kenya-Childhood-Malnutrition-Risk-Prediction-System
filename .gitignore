@@ -183,3 +183,9 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Web app build artefacts (keep source, ignore deps + build output)
+web/node_modules/
+web/.next/
+web/out/
+.env*.local

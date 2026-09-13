@@ -1,112 +1,131 @@
-# 📊 Kenya Childhood Malnutrition Risk Prediction System
+# Kenya Childhood Malnutrition Risk Prediction System
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
-[![GitHub Actions CI](https://github.com/your-org/your-repo/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/your-repo/actions)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Next.js](https://img.shields.io/badge/web-Next.js%2015-black.svg)](https://nextjs.org/)
+[![Vercel](https://img.shields.io/badge/deployed%20on-Vercel-black.svg)](https://vercel.com/)
 
-> An open-source Digital Public Good for predicting acute childhood malnutrition risk in Kenya using machine learning and WHO Data Quality Review standards.
+> An open-source **Digital Public Good** for predicting acute childhood
+> malnutrition risk in Kenya using machine learning and WHO Data Quality
+> Review (DQR) standards.
 
-## Table of Contents
-- [Features](#features)  
-- [Quick-Start](#quick-start)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Development](#development)  
-- [Contributing](#contributing)  
-- [License](#license)
+## 🌐 Live Web Dashboard
+
+The system is deployed as a modern Next.js web app and is **live on Vercel**:
+
+- **Web app source:** [`web/`](web/) directory
+- **Live URL:** _see the GitHub repo description / Vercel deployment_
+- **Data:** bundled as static JSON (`web/data/malnutrition_data.json`) generated
+  from the ML pipeline's `data/processed/predictions.csv`
+- **Database (optional):** Neon Postgres integration is wired in
+  (`web/lib/data.ts`); set `DATABASE_URL` in Vercel to switch from static JSON
+  to a live database. See [`web/scripts/seed_neon.sql`](web/scripts/seed_neon.sql).
 
 ## Features
-- Machine Learning Predictions using Random Forest model trained on WHO and UNICEF indicators
-- Data Quality Monitoring with WHO DQR-compliant validation and automated scoring
-- Quality-Weighted Training that prioritizes high-quality data sources
-- Automated Reporting with monthly PDF reports for stakeholders
-- Alert System for email notifications about data quality deterioration
-- Interactive Dashboards with Streamlit apps for data exploration and quality review
-- Scenario Analysis for policy impact simulations
-- Uncertainty Quantification for confidence intervals in predictions
 
-## Quick-Start
+### ML & Data Pipeline (Python)
+- **Random Forest** model trained on WHO + UNICEF + DHIS2 indicators
+- **WHO DQR-compliant** data quality validation and scoring
+- **Quality-weighted** training that prioritises high-quality data sources
+- **Uncertainty quantification** with confidence intervals
+- **Scenario analysis** for policy-impact simulation
+
+### Web Dashboard (Next.js + Recharts)
+- 📊 National actual-vs-predicted trend with shaded area chart
+- 🗺️ County-level bar chart colour-coded by risk level (critical/high/moderate/low)
+- 🔍 Interactive county selector with detailed time-series comparison
+- 📋 Sortable county risk-ranking table (click a row to inspect)
+- ✅ WHO DQR data quality validation panel
+- 📱 Fully responsive (mobile-first)
+
+### Dashboards (Streamlit — for local power users)
+- `app/app.py` — main prediction dashboard
+- `app/executive_dashboard.py` — national executive dashboard with scenarios
+- `app/data_quality_app.py` — DHIS2-style data quality review
+
+## Quick Start
+
+### Option A: Run the web dashboard (recommended)
+
 ```bash
-# clone & cd
-git clone https://github.com/your-org/your-repo.git
-cd your-repo
+cd web
+npm install
+npm run dev          # http://localhost:3001
+```
 
-# create a virtual environment
+To build for production:
+```bash
+npm run build
+npm run start
+```
+
+### Option B: Run the Python ML pipeline
+
+```bash
 python -m venv .venv && source .venv/bin/activate
-
-# install the package and dev tools
-pip install -e .[dev]
-
-# run the main app
-python -m your_pkg.app.app   # or any other entry-point
-
-# run the complete pipeline with test data
-python system_launcher.py --pipeline
-```
-
-## Installation
-```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
 pip install -r requirements.txt
-
-# Install as editable package (optional)
-pip install -e .
+python system_launcher.py --pipeline
+streamlit run app/app.py
 ```
 
-## Usage
-The system consists of several interconnected modules:
+### Option C: Deploy to Vercel
 
-### 1. Data Pipeline
-- `src.data.load_data`: Load and merge data from WHO, UNICEF, and DHIS2 sources
-- `src.data.clean_data`: Clean missing values and impute data
-- `src.features.build_features`: Engineer features with lagged indicators and seasonal components
+1. Push this repo to GitHub.
+2. Import it on [Vercel](https://vercel.com) — framework auto-detected as Next.js.
+3. (Optional) Set `DATABASE_URL` to a Neon Postgres connection string and run
+   [`web/scripts/seed_neon.sql`](web/scripts/seed_neon.sql) to switch from
+   static JSON to a live database.
+4. Deploy. You'll get a `*.vercel.app` URL.
 
-### 2. Model Training
-- `src.models.train_model`: Train Random Forest model with time-based splitting
-- `src.models.predict`: Generate predictions with uncertainty bands
+## Project Structure
 
-### 3. Validation & Scoring
-- `src.validation.validate_data`: Validate data quality against WHO DQR standards
-- `src.scoring.compute_scores`: Compute county-level data quality scores
+```
+├── web/                  # Next.js web dashboard (deployed to Vercel)
+│   ├── app/              # App Router pages
+│   ├── components/       # React components (charts, cards, tables)
+│   ├── lib/              # Types + Neon data layer
+│   ├── data/             # Bundled JSON data
+│   └── scripts/         # Neon seed SQL
+├── app/                  # Streamlit dashboards (local power-user tools)
+├── src/                  # Python ML pipeline (data, models, validation, reporting)
+├── data/                 # Raw + processed data (CSV)
+├── models/               # Trained Random Forest models (.pkl)
+├── config/               # Centralised Python config
+├── tests/                # Pytest suite (21 tests)
+├── vercel.json           # Vercel deployment config
+└── pyproject.toml        # Python package metadata
+```
 
-### 4. Dashboards
-- `app/app.py`: Main prediction dashboard
-- `app/executive_dashboard.py`: Executive national dashboard with scenarios
-- `app/data_quality_app.py`: Data quality review dashboard
+## Data Sources
 
-### 5. Reporting
-- `src.reporting.generate_pdf_report`: Generate comprehensive PDF reports
-- `src.reporting.generate_donor_deck`: Generate donor presentation decks
+- **WHO** — Ch11 Nutrition Figures
+- **UNICEF** — JMP 2021 WASH inequalities
+- **DHIS2** — Kenya nutrition indicators
+- **Kenya MoH** — climate, economic data
 
-## Development
+All data used in this repository is **synthetic / publicly available** and
+contains no personal health information (PHI).
+
+## Testing
+
 ```bash
-# Install development dependencies
-pip install -e .[dev]
+# Python tests
+pytest                            # 21 tests
 
-# Run tests
-pytest
-
-# Run linting
-ruff check .
-
-# Format code
-black .
-
-# Run type checking
-mypy .
+# Web app
+cd web && npm run build           # type-check + build
 ```
 
 ## Contributing
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Pull requests welcome.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+MIT — see [LICENSE](LICENSE).
 
 ---
 
 *Built for humanitarian impact through ethical AI and open data.*
+*Predictions are for programmatic planning only — individual clinical decisions
+must be made by qualified health professionals.*

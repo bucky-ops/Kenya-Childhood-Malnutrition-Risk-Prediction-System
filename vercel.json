@@ -6,7 +6,7 @@
   "outputDirectory": "web/.next",
   "installCommand": "cd web && npm install",
   "devCommand": "cd web && npm run dev",
-  "regions": ["sin1"],
+  "regions": ["fra1"],
   "github": {
     "silent": true
   }

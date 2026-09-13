@@ -2,15 +2,17 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { HeartPulse, Map as MapIcon, LayoutDashboard, Info, MessageCircle, Newspaper, Share2 } from 'lucide-react';
+import { HeartPulse, Map as MapIcon, LayoutDashboard, Info, MessageCircle, Newspaper, Share2, ClipboardCheck, Bell } from 'lucide-react';
 
 const NAV_ITEMS = [
-  { href: '/', label: 'Dashboard', icon: LayoutDashboard },
-  { href: '/map', label: 'Interactive Map', icon: MapIcon },
-  { href: '/about', label: 'About Us', icon: Info },
+  { href: '/', label: 'Map', icon: LayoutDashboard },
+  { href: '/map', label: 'Full Map', icon: MapIcon },
+  { href: '/assess', label: 'Assess', icon: ClipboardCheck },
+  { href: '/alerts', label: 'Alerts', icon: Bell },
+  { href: '/about', label: 'About', icon: Info },
   { href: '/qa', label: 'Q&A', icon: MessageCircle },
-  { href: '/blog', label: 'News & Blog', icon: Newspaper },
-  { href: '/stories', label: 'Share a Story', icon: Share2 },
+  { href: '/blog', label: 'News', icon: Newspaper },
+  { href: '/stories', label: 'Stories', icon: Share2 },
 ];
 
 export default function NavBar() {

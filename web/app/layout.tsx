@@ -4,7 +4,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import NavBar from '@/components/NavBar';
 import './globals.css';
 
-const siteUrl = 'https://web-amber-xi-94.vercel.app';
+const siteUrl = 'https://kmal.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

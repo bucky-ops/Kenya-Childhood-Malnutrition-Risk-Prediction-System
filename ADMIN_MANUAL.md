@@ -154,12 +154,10 @@ npx vercel --prod --token $VERCEL_TOKEN
 3. Vercel auto-detects Next.js (root directory: `web/`)
 4. Click **Deploy**
 
-### Production URLs
+### Production URL
 | URL | Purpose |
 |---|---|
-| https://kmal.vercel.app | Short canonical URL |
-| https://malnutrition-kenya.vercel.app | Descriptive URL |
-| https://web-amber-xi-94.vercel.app | Original URL |
+| https://kmal.vercel.app | Canonical production URL (the only public alias) |
 
 ---
 

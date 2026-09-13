@@ -18,9 +18,8 @@
 The Kenya Childhood Malnutrition Risk Prediction System is a free, open-source web tool that helps caregivers, community health volunteers, and health officers understand malnutrition risk across all 47 counties of Kenya.
 
 **How to access it:**
-Open any of these URLs in your browser:
-- **https://kmal.vercel.app** (short URL)
-- **https://malnutrition-kenya.vercel.app** (descriptive URL)
+Open this URL in your browser:
+- **https://kmal.vercel.app**
 
 **System requirements:**
 - A smartphone, tablet, or computer with an internet connection

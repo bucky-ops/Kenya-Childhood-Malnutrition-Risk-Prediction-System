@@ -13,10 +13,7 @@
 
 The system is deployed as a modern Next.js web app and is **live on Vercel**:
 
-**🟢 Live URLs:**
-- **https://kmal.vercel.app** (short)
-- **https://malnutrition-kenya.vercel.app** (descriptive)
-- **https://web-amber-xi-94.vercel.app** (original)
+**🟢 Live URL: https://kmal.vercel.app**
 
 - **Web app source:** [`web/`](web/) directory
 - **Data:** bundled as static JSON (`web/data/malnutrition_data.json`) generated

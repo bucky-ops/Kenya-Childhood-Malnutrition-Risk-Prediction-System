@@ -13,8 +13,9 @@
 
 The system is deployed as a modern Next.js web app and is **live on Vercel**:
 
+**🟢 Live URL: https://web-amber-xi-94.vercel.app/**
+
 - **Web app source:** [`web/`](web/) directory
-- **Live URL:** _see the GitHub repo description / Vercel deployment_
 - **Data:** bundled as static JSON (`web/data/malnutrition_data.json`) generated
   from the ML pipeline's `data/processed/predictions.csv`
 - **Database (optional):** Neon Postgres integration is wired in

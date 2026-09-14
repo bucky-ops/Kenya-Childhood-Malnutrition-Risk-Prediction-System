@@ -1,21 +1,21 @@
 /**
- * County narrative types for the map layer.
- *
- * `web/data/county_narratives.json` maps each of the 51 Kenyan counties
- * to a short, field-informed story used by the GIS map detail panel.
+ * Types for the per-county human narratives dataset
+ * (`web/data/county_narratives.json`).
  */
 
-/** Human-readable context for a single county. */
 export interface CountyNarrative {
-  /** Structural drivers of malnutrition in this county (drought, poverty, WASH…). */
+  /** Structural drivers of malnutrition in this county (e.g. drought, poverty). */
   drivers: string[];
-  /** Representative composite testimony (never a real named individual). */
+  /** Representative composite testimony from a caregiver in the county. */
   testimony: string;
-  /** Ongoing programmes and interventions in the county. */
+  /**
+   * Active nutrition/food-security initiatives, written as free text.
+   * Known organisation names are auto-linked by `CountyNarrativePanel`.
+   */
   initiatives: string[];
-  /** A documented community success story. */
+  /** Documented progress / success story for the county. */
   success_story: string;
 }
 
-/** All county narratives, keyed by county name (e.g. `Record['Garissa']`). */
+/** Map of county name -> narrative. Keys match `CountySummary.county`. */
 export type CountyNarratives = Record<string, CountyNarrative>;
